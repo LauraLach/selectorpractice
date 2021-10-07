@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #FCFFBE;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#one {
+  background-color: #EAC14A;
+  height: 80vh;
+}
+#two {
+  background-color: #28DA39;
+  height: 70vh;
+}
+#three {
+  background-color: #FF0049;
+  height: 60vh;
+}
+#four {
+  background-color: #A09187;
+  height: 80vh;
+}
+#three p {
+  font-family: sans-serif;
+}
+#one div {
+  border: 2px #000 solid;
+}
+#two > p {
+  color: #FFF;
+}
+#one + div {
+  color: #FFF;
+}
+#four > p {
+  text-decoration: line-through;
+}
+h1 + p {
+  font-family: cursive;
+}
+h1:first-child {
+  text-decoration: overline;
+}
+div:first-child {
+  text-decoration: underline;
+}
