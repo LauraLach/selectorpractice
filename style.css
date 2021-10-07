@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body, html {
-  padding: 0px;
-  margin: 0px;
+  padding: 0vmax;
+  margin: 0vmax;
 }
 body {
   background-color: #FCFFBE;
@@ -33,7 +33,7 @@ div {
   font-family: sans-serif;
 }
 #one div {
-  border: 2px #000 solid;
+  border: 0.5vmin #000 solid;
 }
 #two > p {
   color: #FFF;
